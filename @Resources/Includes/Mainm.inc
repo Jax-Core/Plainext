@@ -282,6 +282,7 @@ Plugin=Plugins\PerfMon.dll
 PerfMonObject=LogicalDisk
 PerfMonCounter="Disk Read Bytes/sec"
 PerfMonInstance=C:
+Group=NonOverview
 
 [MeasureDriveCWrite]
 Measure=Plugin
@@ -289,6 +290,7 @@ Plugin=Plugins\PerfMon.dll
 PerfMonObject=LogicalDisk
 PerfMonCounter="Disk Write Bytes/sec"
 PerfMonInstance=C:
+Group=NonOverview
 
 [MeasureDriveDRead]
 Measure=Plugin
@@ -296,6 +298,7 @@ Plugin=Plugins\PerfMon.dll
 PerfMonObject=LogicalDisk
 PerfMonCounter="Disk Read Bytes/sec"
 PerfMonInstance=D:
+Group=NonOverview
 
 [MeasureDriveDWrite]
 Measure=Plugin
@@ -303,5 +306,6 @@ Plugin=Plugins\PerfMon.dll
 PerfMonObject=LogicalDisk
 PerfMonCounter="Disk Write Bytes/sec"
 PerfMonInstance=D:
+Group=NonOverview
 
 
