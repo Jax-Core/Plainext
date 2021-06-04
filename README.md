@@ -40,4 +40,4 @@ Rainmeter 4.4 beta or newer: [Download here](https://www.rainmeter.net/)
 via Discord: **Jax#1090**
 
 ## Special thanks to
-[@deathcrafter](https://github.com/deathcrafter) for optimizing the action changer.
+u/wet-hot-dog-69 for the MSDOS style inspiration.
