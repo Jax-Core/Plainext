@@ -1,1 +1,1 @@
-Plainext\@Resources\GlobalVars.inc 
+Plainext\@Resources\Vars.inc 
