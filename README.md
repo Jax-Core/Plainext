@@ -9,21 +9,15 @@ Rainmeter
 
 A *Rainmeter* skin built entirely with only string meters (and other measures). Download rainmeter [here](https://www.rainmeter.net/)
 
-<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/illegalstuff/Splash.png"/>
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/Splash.png"/>
 
-## Previews
-Mono
+## Screenshots
 
-<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/illegalstuff/P1.png"/>
-Minecraft
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P1.png"/>
 
-<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/illegalstuff/P2.png"/>
-MSDOS
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P3.png"/>
 
-<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/illegalstuff/P3.png"/>
-Overview
-
-<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/illegalstuff/P4.png"/>
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P4.png"/>
 
 
 # Installation
@@ -37,7 +31,7 @@ Rainmeter 4.4 beta or newer: [Download here](https://www.rainmeter.net/)
 1. Leave the installation settings default, and press install
   
 ## Contact me
-via Discord: **Jax#1090**
+via Discord: **Jax#7000**
 
 ## Special thanks to
-u/wet-hot-dog-69 for the MSDOS style inspiration.
+[death.crafter](https://github.com/deathcrafter) for the ColorPickerUI
