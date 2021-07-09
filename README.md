@@ -1,6 +1,3 @@
-# 
-Rainmeter 
-
 <h1 align="center">
   Plainext
 </h1>
@@ -9,13 +6,16 @@ Rainmeter
 
 A *Rainmeter* skin built entirely with only string meters (and other measures). Download rainmeter [here](https://www.rainmeter.net/)
 
-<img src="https://github.com/EnhancedJax/MIUI-Shade/blob/test/%40Resources/Images/Splash.png"/>
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/Splash.png"/>
 
 ## Screenshots
 
-<img src="https://github.com/EnhancedJax/MIUI-Shade/blob/test/%40Resources/Images/P1.png"/>
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P1.png"/>
 
-<img src="https://github.com/EnhancedJax/MIUI-Shade/blob/test/%40Resources/Images/P2.png"/>
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P3.png"/>
+
+<img src="https://github.com/EnhancedJax/Plainext/blob/master/%40Resources/Images/P4.png"/>
+
 
 # Installation
 ### Requirements
@@ -29,3 +29,6 @@ Rainmeter 4.4 beta or newer: [Download here](https://www.rainmeter.net/)
   
 ## Contact me
 via Discord: **Jax#7000**
+
+## Special thanks to
+[death.crafter](https://github.com/deathcrafter) for the ColorPickerUI
