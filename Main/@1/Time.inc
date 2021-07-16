@@ -11,7 +11,7 @@ FontSize=(24*(#Scale#/20))
 FontWeight=#FontWeight#
 MEterStyle=Text
 InlinePattern=\s(.*)
-InlineSetting=Size | (#Scale#+8)
+InlineSetting=Size | (#Scale#+6*#Scale#/12)
 MiddleMouseUpAction=[!Refresh]
 UpdateDivider=-1
 
