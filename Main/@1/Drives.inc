@@ -118,4 +118,4 @@ Measure=Calc
 Formula=MeasureDriveDWrite
 [Dot5]
 Meter=String
-MeterStyle=Dots
+MeterStyle=Dots | FirstAlign:#Align#

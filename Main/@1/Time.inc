@@ -1,20 +1,3 @@
-
-[Title]
-Meter=String
-X=#In#
-Y=10R
-MeasureName=MeasureComputerName
-MeasureName2=MeasureUsername
-FontColor=#Accent#
-Text=%1 %2
-FontSize=(24*(#Scale#/20))
-FontWeight=#FontWeight#
-MEterStyle=Text
-InlinePattern=\s(.*)
-InlineSetting=Size | (#Scale#+6*#Scale#/12)
-MiddleMouseUpAction=[!Refresh]
-UpdateDivider=-1
-
 [TimeDate]
 Meter=String
 MeasureName=MeasureTime

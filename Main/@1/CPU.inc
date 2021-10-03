@@ -23,7 +23,7 @@ MeasureName4=MeasureTopUsage4CPU
 MeasureName5=MeasureTopUsage5CPU
 MeasureName6=MeasureTopUsage6CPU
 Text=%1#CRLF#%2#CRLF#%3#CRLF#%4#CRLF#%5#CRLF#%6
-W=(#Scale#*20)
+W=(#Scale#*240)
 ClipString=1
 
 [CPUvbar1]
@@ -32,18 +32,17 @@ MeterStyle=VBar
 
 [CPUtopused]
 Meter=String
-X=5R
 Y=r
-MeterStyle=Text
+MeterStyle=Text | VAlign:#Align#
 Text=[MeasureTopUsage1CPU:1]%#CRLF#[MeasureTopUsage2CPU:1]%#CRLF#[MeasureTopUsage3CPU:1]%#CRLF#[MeasureTopUsage4CPU:1]%#CRLF#[MeasureTopUsage5CPU:1]%#CRLF#[MeasureTopUsage6CPU:1]%#CRLF#
 DynamicVariables=1
 NumOfDecimals=1
-W=(#Scale#*7)
+W=(#Scale#*84)
 ClipString=1
 
 [Dot2]
 Meter=String
-MEterStyle=Dots
+MeterStyle=Dots | FirstAlign:#Align#
 
 
 @includeCPUTOP=#ROOTCONFIGPATH#Main\@Measures\CPUTOP.inc

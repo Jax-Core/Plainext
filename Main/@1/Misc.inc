@@ -25,4 +25,4 @@ MEterStyle=Text
 
 [Dot6]
 Meter=String
-MEterStyle=Dots
+MeterStyle=Dots | FirstAlign:#Align#

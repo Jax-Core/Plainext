@@ -9,9 +9,9 @@ Text=Starting MS-DOS...#CRLF##CRLF#HIMEM is testing extended memory ... done.#CR
 [Title]
 FontWeight=#FontWeight#
 Y=10R
-Fontsize=(#Scale#*2)
+Fontsize=(#Scale#*24)
 Text=%1 %2
 InlinePattern=\s(.*)
-InlineSetting=Size | (#Scale#+8)
+InlineSetting=Size | (#Scale#*24)
 LeftMouseUpAction=[]
 RightMouseUpAction=[]

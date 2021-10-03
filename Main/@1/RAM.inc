@@ -20,7 +20,7 @@ MeasureName4=MeasureTopUsage4RAM
 MeasureName5=MeasureTopUsage5RAM
 MeasureName6=MeasureTopUsage6RAM
 Text=%1#CRLF#%2#CRLF#%3#CRLF#%4#CRLF#%5#CRLF#%6
-W=(#Scale#*20)
+W=(#Scale#*240)
 ClipString=1
 
 [RAMvbar1]
@@ -29,7 +29,6 @@ MeterStyle=VBar
 
 [RAMtopused]
 Meter=String
-X=5R
 Y=r
 MeasureName=CalcTopMemory1RAM
 MeasureName2=CalcTopMemory2RAM
@@ -37,17 +36,17 @@ MeasureName3=CalcTopMemory3RAM
 MeasureName4=CalcTopMemory4RAM
 MeasureName5=CalcTopMemory5RAM
 MeasureName6=CalcTopMemory6RAM
-MeterStyle=Text
+MeterStyle=Text | VAlign:#Align#
 Autoscale=1k
 Text=%1B#CRLF#%2B#CRLF#%3B#CRLF#%4B#CRLF#%5B#CRLF#%6B#CRLF#
 DynamicVariables=1
 NumOfDecimals=1
-W=(#Scale#*7)
+W=(#Scale#*84)
 ClipString=1
 
 [Dot3]
 Meter=String
-MEterStyle=Dots
+MeterStyle=Dots | FirstAlign:#Align#
 
 
 @includeRAMTOP=#ROOTCONFIGPATH#Main\@Measures\RAMTOP.inc
