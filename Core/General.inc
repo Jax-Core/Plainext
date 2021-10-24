@@ -10,7 +10,7 @@ X=(30*[Set.S])
 Y=(10*[Set.S])R
 Container=ContentContainer
 DynamicVariables=1
-Shape=Rectangle 0,0,(#Set.W#-#Set.L#-#Set.P#*4),(130*[Set.S]),3,3 | StrokeWidth 2 | Fill Color 0,0,0,1 | Extend Fill
+Shape=Rectangle 0,0,(#Set.W#-#Set.L#-#Set.P#*3),(130*[Set.S]),3,3 | StrokeWidth 2 | Fill Color 0,0,0,1 | Extend Fill
 Fill=Stroke Color 255,255,255,50
 MouseOverAction=[!SetOption #CURRENTSECTION# Fill "Stroke Color 255,255,255,150"][!UpdateMeter #CURRENTSECTION#][!Redraw]
 MouseLeaveAction=[!SetOption #CURRENTSECTION# Fill "Stroke Color 255,255,255,50"][!UpdateMeter #CURRENTSECTION#][!Redraw]
@@ -30,6 +30,25 @@ DynamicVariables=1
 Meter=String
 Y=(150*[Set.S])r
 Text=Line breaker
+MeterStyle=Set.String:S | Set.OptionName:S
+
+;================================================================================================================================================================================
+
+[DrivesTitle]
+Meter=String
+Text=Drives
+MeterStyle=Set.String:S | Set.OptionCat:S
+
+[Option31]
+Meter=String
+Text=Drive characters, no seperation needed
+MeterStyle=Set.String:S | Set.OptionName:S
+[Set.Div:S12323292a03ds]
+Meter=Shape
+MeterStyle=Set.Div:S
+[Option32]
+Meter=String
+Text=Generate drives
 MeterStyle=Set.String:S | Set.OptionName:S
 
 ;================================================================================================================================================================================
@@ -100,32 +119,6 @@ MeterStyle=Set.String:S | Set.OptionName:S
 
 ;================================================================================================================================================================================
 
-[DrivesTitle]
-Meter=String
-Text=Drives
-MeterStyle=Set.String:S | Set.OptionCat:S
-
-[Option30]
-Meter=String
-Text=Number of drives
-MeterStyle=Set.String:S | Set.OptionName:S
-[Set.Div:S1912313203wds]
-Meter=Shape
-MeterStyle=Set.Div:S
-[Option31]
-Meter=String
-Text=Drive characters, no seperation needed
-MeterStyle=Set.String:S | Set.OptionName:S
-[Set.Div:S12323292a03ds]
-Meter=Shape
-MeterStyle=Set.Div:S
-[Option32]
-Meter=String
-Text=Generate drives
-MeterStyle=Set.String:S | Set.OptionName:S
-
-;================================================================================================================================================================================
-
 ;; BOOL EXMAPLE
 ; [Set.Bool:SVarName]
 ; Meter=Shape
@@ -152,6 +145,29 @@ Text=#BreakerString#
 MeterStyle=Set.String:S | Set.Value:S
 
 ;================================================================================================================================================================================
+
+
+[DriveChar]
+Meter=Shape
+MeterStyle=Set.Textbox:S
+Y=([Option31:Y]-#Set.P#+(-30/2+8)*[Set.S])
+[Value31]
+Meter=String
+Text=#DriveChar#
+MeterStyle=Set.String:S | Set.Value:S
+[Button32]
+Meter=Shape
+MeterStyle=Set.Button:S
+OverColor=0,255,10,200
+LeaveColor=0,255,10,100
+Y=([Option32:Y]-#Set.P#+(-30/2+8)*[Set.S])
+Act=[!CommandMeasure DrivesGen:M "GenDrive('#DriveChar#')"][!UpdateMeasure Auto_Refresh:M]
+[Value32]
+Meter=String
+Text=Generate
+MeterStyle=Set.String:S | Set.Value:S
+
+
 
 [Prefix]
 Meter=Shape
@@ -186,35 +202,6 @@ Meter=Shape
 MeterStyle=Set.Bool:S
 Y=([Option26:Y]-#Set.P#+(-20/2+8)*[Set.S])
 
-
-[DriveCount]
-Meter=Shape
-MeterStyle=Set.Textbox:S
-Y=([Option30:Y]-#Set.P#+(-30/2+8)*[Set.S])
-[Value30]
-Meter=String
-Text=#DriveCount#
-MeterStyle=Set.String:S | Set.Value:S
-[DriveChar]
-Meter=Shape
-MeterStyle=Set.Textbox:S
-Y=([Option31:Y]-#Set.P#+(-30/2+8)*[Set.S])
-[Value31]
-Meter=String
-Text=#DriveChar#
-MeterStyle=Set.String:S | Set.Value:S
-[Button32]
-Meter=Shape
-MeterStyle=Set.Button:S
-OverColor=0,255,10,200
-LeaveColor=0,255,10,100
-Y=([Option32:Y]-#Set.P#+(-30/2+8)*[Set.S])
-Act=[!CommandMeasure DrivesGen:M "GenDrive(#DriveCount#, '#DriveChar#')"][!UpdateMeasure Auto_Refresh:M]
-[Value32]
-Meter=String
-Text=Generate
-MeterStyle=Set.String:S | Set.Value:S
-
 ;================================================================================================================================================================================
 
 [Input2:M]
@@ -233,4 +220,4 @@ Command1=[!SetVariable #Editing# "$UserInput$"][!UpdateMeasure SaveAndLoad:M]
 
 [DrivesGen:M]
 Measure=Script
-ScriptFile=#@#Lua\GenPlainextDrives.lua
+ScriptFile=#SKINSPATH##Skin.Name#\Core\GenPlainextDrives.lua
