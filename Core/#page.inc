@@ -55,20 +55,20 @@ Meter=String
 Text=Appearance
 DynamicVariables-1
 MeterStyle=Set.String:S | PageText:S
-[ColorScheme]
+[Modules]
 Meter=Shape
 Y=(10*[Set.S])R
 MeterStyle=PageBox:S
-Fill=Fill Color #Set.Accent_Color#,(#BarHandler# = 4 ? 255: 0)
-Handle=4
+Fill=Fill Color #Set.Accent_Color#,(#BarHandler# = 6 ? 255: 0)
+Handle=6
 
-[ColorSchemeIcon]
+[ModulesIcon]
 Meter=Image
 MeterStyle=PageIcon:S
-Greyscale=(#BarHandler# = 4 ? 1 : 0)
+Greyscale=(#BarHandler# = 6 ? 1 : 0)
 
-[4]
+[6]
 Meter=String
-Text=Color scheme
+Text=Modules
 DynamicVariables-1
 MeterStyle=Set.String:S | PageText:S
