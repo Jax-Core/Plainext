@@ -83,13 +83,13 @@ Y=([Option01:Y]-#Set.P#+(-30/2+8)*[Set.S])
 [Align:0]
 Meter=String
 Text=Left
-FontColor=([&Func:returnBool('Align', 'Right')] = 0 ? 0 : 255),([&Func:returnBool('Align', 'Right')] = 0 ? 0 : 255),([&Func:returnBool('Align', 'Right')] = 0 ? 0 : 255)
+FontColor=[&Func:returnBool('Align', 'Right', '#Set.Text_Color#', '#Set.Pri_color#')]
 LeftMouseUpAction=[&Func:GroupVar('#CURRENTSECTION#', '0Act')][!Refresh][!UpdateMeasure Auto_Refresh:M]
 MeterStyle=Set.String:S | Set.PickOption_0:S
 [Align:1]
 Meter=String
 Text=Right
-FontColor=([&Func:returnBool('Align', 'Right')] = 1 ? 0 : 255),([&Func:returnBool('Align', 'Right')] = 1 ? 0 : 255),([&Func:returnBool('Align', 'Right')] = 1 ? 0 : 255)
+FontColor=[&Func:returnBool('Align', 'Right', '#Set.Pri_color#', '#Set.Text_Color#')]
 LeftMouseUpAction=[&Func:GroupVar('#CURRENTSECTION#', '1Act')][!Refresh][!UpdateMeasure Auto_Refresh:M]
 MeterStyle=Set.String:S | Set.PickOption_1:S
 [Scale]
