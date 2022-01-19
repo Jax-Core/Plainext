@@ -48,16 +48,13 @@
 
 ![Plainext](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/97bfd084-7ef0-496f-a835-3c41f482d38c/dekwcwx-dfac412b-5482-45b9-a4ce-6e080072c9c2.png)
 
-Plainext is a highly customizable audio visualizer that includes a plethora of pre-built layouts and over 40+ options to experiment with, as well as an additional 3D overlay module for creating layering effects. And, as one of the developers, deathcrafter, put it, **"It does a lot more than what the screenshot shows."**
+Plainext is a Rainmeter skin that shows system's stats in real time and is made with strings only. It is fully customizable and rescalable, you can even choose from aligning left or right!
 
 ## Features
 
-* 40+ Customization Options
-* Numerous Built-in Styles
-* Live bar transparency
-* Built-in layering tools 
-* Audio detection and many more..
-
+* Two Alignment Options
+* Real-time System Monitor
+* Customizable Text
 
 ## Getting Started
 
@@ -80,7 +77,7 @@ Assuming you successfully downloaded and installed Rainmeter as well as JaxCore,
 
 Now that you've installed and configured Plainext, let's take a look at some of its customization options!
 
-* **Layouts:** Plainext comes with two alignement options and some customization options for each alignment.
+* **Layouts:** Plainext includes two alignment options as well as some customization options for each alignment.
 * Further in-depth customization can be done through the **Appearance**, **Modules**, and **General** tabs. 
 
 
