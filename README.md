@@ -48,7 +48,7 @@
 
 ![Plainext](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/97bfd084-7ef0-496f-a835-3c41f482d38c/dekwcwx-dfac412b-5482-45b9-a4ce-6e080072c9c2.png)
 
-Plainext is a Rainmeter skin that shows your system's stats in real time and is made with strings only. It is fully customizable and rescalable, you can even choose from aligning left or right!
+Plainext is a Rainmeter skin that shows your system's stats in real time and is made with strings only. It is fully customizable and rescalable, and you can even choose from aligning left or right!
 
 ## Features
 
@@ -61,7 +61,7 @@ Plainext is a Rainmeter skin that shows your system's stats in real time and is 
 ### Prerequisites
 
 - **Rainmeter v4.5 or newer.** Rainmeter can be installed by downloading the `.exe` file [from Rainmeter's official website.](https://www.rainmeter.net/)
-- **JaxCore v40005.** JaxCore can be installed by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
+- **JaxCore v40005 or newer.** JaxCore can be installed by downloading the `.rmskin` file from [JaxCore's official website.](https://jax-core.github.io/)
 
 ### Installation
 
