@@ -64,11 +64,15 @@ Plainext is a Rainmeter skin that shows your system's stats in real time and is 
 - For older systems, **Powershell v5.1 or newer** is required. Upgrade powershell **[here](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/install/installing-windows-powershell?view=powershell-7.2#upgrading-existing-windows-powershell)**!
 
 ### Installation 
-Run the following command in Powershell to get the latest version of JaxCore (`win + r` -> `powershell.exe` / search)
+Run the following command in Powershell to download the latest version of JaxCore.
+
+(To launch Powershell as an Admin: `Win + R` -> `powershell` -> Press `CTRL + SHIFT + ENTER` on your keyboard. Powershell can also be launched via Windows Search.)
+
 ```
 Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/Jax-Core/JaxCore/master/CoreInstaller.ps1" | Invoke-Expression
 ```
-Alternatively you can get it on the [website](https://jax-core.github.io/)
+
+> Alternatively you can download it from the [website](https://jax-core.github.io/)
 
 After you've proceeded through the welcome screen, select this widget (might have to scroll down) and click Install. It will appear in the library page after that.
 
